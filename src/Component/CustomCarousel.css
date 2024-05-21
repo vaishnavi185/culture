@@ -1,0 +1,20 @@
+.carousel-card {
+    width: 30%;
+    position: relative;
+  }
+  
+  .card-body {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .carousel-card:hover .card-body {
+    opacity: 1;
+  }
+  

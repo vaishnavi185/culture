@@ -1,0 +1,37 @@
+.ho{
+    background-repeat:no-repeat;
+    width: 1500px;
+    height: 600px;
+    overflow: hidden;
+ 
+ 
+  }
+  .welcome-text {
+    color: white; /* Text color */
+    font-size: 50px; /* Font size */
+    font-weight:800; /* Font weight */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    position: absolute; /* Position the text on the image */
+    top: 35%; /* Center vertically (adjust as needed) */
+    left: 50%; /* Center horizontally (adjust as needed) */
+    transform: translate(-50%, -50%); /* Center based on content size */
+  }
+   .welcome-text2 {
+    position: absolute; /* Enable absolute positioning */
+    top: 44%; /* Center vertically (adjust as needed) */
+    left: 50%; /* Center horizontally (adjust as needed) */
+    transform: translate(-50%, -50%); /* Center based on content size */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: larger;
+    color: #021120;
+  }
+  .content{
+    margin-top: 50px;
+    margin-left: 600px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+  }
+  p{
+    margin-left: 30px;
+  }
