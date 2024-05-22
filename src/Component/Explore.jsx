@@ -21,6 +21,7 @@ const CustomCarousel = () => {
 
   return (
     <section id='gallery'>
+      <div className='jk'>
       <div className='content'>
         <h1><i>...lets explore more...</i></h1>
       </div>
@@ -28,6 +29,8 @@ const CustomCarousel = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab ut earum omnis neque quod accusantium nisi hic sint labore, atque porro maxime repudiandae at eaque fugiat alias, aperiam, minima perferendis.
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam veniam nihil omnis optio odio ratione, quibusdam officia quae iste vel nemo quisquam unde obcaecati voluptas illo quam .
       </p>
+      </div>
+      
       <br />
       <h1 className='h'>Places To Visit</h1>
       <Carousel 
