@@ -17,4 +17,15 @@
   .carousel-card:hover .card-body {
     opacity: 1;
   }
-  
+  .content{
+    top:70px
+  }
+  .b1{
+    background-color: transparent;
+    border: none;
+  }
+  .h{
+    margin-left: 650px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+  }

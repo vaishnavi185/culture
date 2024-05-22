@@ -10,7 +10,7 @@ import CustomCarousel from './Explore.jsx'; // Import CustomCarousel
 export default function NavBar() {
   return (
     <>
-    <Navbar bg="light" expand="lg" className='N'>
+    <Navbar bg="transparent" expand="lg" className='N'>
       <div className="container-fluid">
         <Navbar.Brand href="#">
           <img src='./mount.png' className='im-1' alt='Mount' />
@@ -33,11 +33,11 @@ export default function NavBar() {
         </Nav>
       </div>
     </Navbar>
-    <Home></Home>
+    {/* <Home></Home>
     <br></br>
     <br></br>
     <br></br>
-    <CustomCarousel></CustomCarousel>
+    <CustomCarousel></CustomCarousel> */}
     </>
   );
 }
