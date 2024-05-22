@@ -1,0 +1,26 @@
+.login{
+    height: 500px;
+    width: 500px;
+    margin-left: 480px;
+    background-color: rgb(2, 22, 39);
+    color: aliceblue;
+    margin-top: 100px;
+    border: 2px solid #ffff;
+}
+.mb-3{
+    margin-top: 30px;
+    width: 400px;
+    margin-left: 50px;
+
+}
+
+.Button{
+    background-color: rgb(179, 212, 241);
+    border-color: transparent;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.text{
+    margin-left: 200px;
+    margin-top: 5px;
+}

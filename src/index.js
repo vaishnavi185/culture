@@ -9,6 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Component/Home';
 import CustomCarousel from './Component/Explore';
 import { BrowserRouter, RouterProvider } from 'react-router-dom';
+import Login from './Component/Login.jsx';
+import Footer from './Component/About.jsx';
 
 const handleButtonClick = () => {
   alert('Button clicked!');
@@ -23,7 +25,12 @@ root.render(
     <br></br> <br></br>
    <Religion></Religion>
    <br></br>
+   <br></br>
  <Food></Food>
+ <br></br>
+ <Login></Login>
+ <br></br>
+ <Footer></Footer>
   </React.StrictMode>
 );
 

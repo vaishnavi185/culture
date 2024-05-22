@@ -1,5 +1,6 @@
 .im-1{
   height: 40px;
+  width: 60px;
 
 }
 
@@ -9,3 +10,4 @@
 .nav navbar-nav navbar-right{
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+

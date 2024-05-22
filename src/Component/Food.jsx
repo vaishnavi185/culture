@@ -1,29 +1,22 @@
 import React from 'react'
-import './f.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import './f.css'
+
 export default function Food() {
   return (
    <section id='religion'>
-
-
-    <div className='row'>
-        <div className='col-ss-4'> 
-        <img src='./food.jpeg' className='im1'></img>
-        </div>
-
-<div className='col-ss-8'>
-<p className='content'>
-  Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolore odit necessitatibus cupiditate? Autem placeat modi veniam hic molestias, repellendus aut porro eligendi minus vero debitis, accusamus sunt culpa fugiat!
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis aliquid mollitia libero optio cupiditate, necessitatibus animi adipisci, incidunt odit cumque, laudantium earum asperiores. Totam, quis officia excepturi delectus voluptas fugiat.
-
-</p>
-
-</div>
-
-    
-<div className='col-ss-4'> 
-        <img src='./food.jpeg' className='im1'></img>
-        </div>
-    </div>
+ <Container>
+     
+      <Row>
+        <Col xs={4}><img src='./food.jpeg'></img></Col>
+        <Col xs={4}><span><h1>Culture </h1></span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, tempora consequatur nihil sequi architecto ab accusantium tenetur fuga facilis sunt facere libero aperiam delectus placeat, consectetur ullam saepe. Omnis, reiciendis.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor dolorum voluptatibus laborum illum nesciunt vero, eligendi aut alias voluptatem minima sunt facere facilis sequi hic nulla expedita non eveniet eius.</Col>
+        <Col xs={4}><img src='./p.jpg'></img></Col>
+      </Row>
+    </Container>
 
    </section>
   )
