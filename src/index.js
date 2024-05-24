@@ -11,6 +11,7 @@ import CustomCarousel from './Component/Explore';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Login from './Component/Login.jsx';
 import Footer from './Component/About.jsx';
+import Signup from './Component/Signup.jsx'
 
 const handleButtonClick = () => {
   alert('Button clicked!');
@@ -34,7 +35,7 @@ root.render(
         <Footer />
         <BrowserRouter>
         <Routes>
-          <Route path='/login' element={<Login />} />
+          <Route path='/login' element={<Signup />} />
         </Routes>
      
     </BrowserRouter>
