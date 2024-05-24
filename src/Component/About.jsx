@@ -17,7 +17,7 @@ function Footer() {
               <li><a href="#"><i className="fab fa-twitter"></i></a></li>
               <li><a href="#"><i className="fab fa-instagram"></i></a></li>
             </ul>
-          </div>
+          </div> 
           <div className="col-md-4">
             <h3>Subscribe</h3>
             <form>

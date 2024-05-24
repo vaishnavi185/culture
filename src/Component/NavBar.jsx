@@ -20,7 +20,7 @@ export default function NavBar() {
           {/* No changes needed here */}
         </Navbar.Collapse>
         <Nav className="ml-auto"> {/* Moved Nav outside Collapse */}
-          <Nav.Link as={Link} to='/'>Home</Nav.Link> {/* Using Link component */}
+          <Nav.Link as={Link} to='/home'>Home</Nav.Link> {/* Using Link component */}
           <NavDropdown title="Gallery" id="basic-nav-dropdown">
             <NavDropdown.Item href="#">Nainital Lake</NavDropdown.Item>
             <NavDropdown.Item href="#">Mukteshwar Temple</NavDropdown.Item>
